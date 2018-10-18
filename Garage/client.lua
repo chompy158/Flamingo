@@ -198,7 +198,7 @@ end
 AddEventHandler('eden_garage:hasEnteredMarker', function(zone)
 	if zone == 'garage' then
 		CurrentAction     = 'garage_action_menu'
-		CurrentActionMsg  = "Press ~ INPUT_PICKUP ~ to open the garage"
+		CurrentActionMsg  = "Press E to open the garage"
 		CurrentActionData = {}
 	end
 end)
